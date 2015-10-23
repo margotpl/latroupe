@@ -21,7 +21,7 @@ $(document).ready(function(){
       //callback which can be used to show a thank you message
       //and reset the form
       $('#mailbox').hide();
-      $('#greatsucess').show();
+      $('#greatsuccess').show();
     });
     return false; //to stop the form from submitting
   });
