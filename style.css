@@ -51,7 +51,7 @@ h4 {
 }
 
 body {
-  background: url(images/broadway.png) no-repeat center center;
+  background: url(image/broadway.png) no-repeat center center;
   background-size:cover;
   padding-bottom:4%;
 }
