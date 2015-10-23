@@ -1,22 +1,22 @@
 /*--------------------------TITRES----------------------------*/
 h1 {
-	font-family: 'Droid Serif', serif;
-	font-size: 32px;
-	text-align: center;
+	font-family:'Fjalla One', sans-serif;
+	font-size:38px;
+	text-align:center;
 	color:white;
 }
 
 h2 {
 	font-family: 'Droid Serif', serif;
-	font-size: 20px;
-	text-align: center;
+	font-size:20px;
+	text-align:center;
 	color:white;
 }
 
 h3 {
 	font-family: 'Archivo Narrow', sans-serif;
 	font-size:24px;
-	text-align: center;
+	text-align:center;
 	color:#BDBDBD;
 	padding-top:10px;
 }
@@ -43,22 +43,17 @@ h4 {
 	margin-top:10px;
 }
 
-nav {
-	font-family:'Fjalla One', sans-serif;
-	font-size:18px;
-}
-
 .image {
 	display:block;
     margin:auto;
     border-radius:2%;
-    width: 100%;
+    width:100%;
 }
 
 body {
   background: url(images/broadway.png) no-repeat center center;
   background-size:cover;
-  padding-bottom: 4%;
+  padding-bottom:4%;
 }
 
 section {
@@ -88,46 +83,6 @@ section {
 
 .colonne {
 	margin:10px;
-}
-
-.clear {
-	clear:both;
-}
-
-a:link {
-	color:white
-	text-decoration:none;
-}
-
-a:hover {
-	opacity: 0.8;
-}
-
-a:visited{
-	color:black;
-	text-decoration:none;
-}
-
-a:active{
-	color:black;
-	text-decoration:none;
-}
-
-.colonneleft {
-	float:left;
-	margin:auto;
-	display:block;
-	width:20%;
-	padding:auto;
-
-}
-
-.colonneright{
-	float:right;
-	margin:auto;
-	display:block;
-	width:80%;
-	padding:auto;
 }
 
 .fin2{
@@ -160,33 +115,6 @@ body {
     background-color:black;
 }
 
-.btn-primary {
-	background-color: black;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: white;
-    background-color: black;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
-
-.hidden {
-	display:none;
-}
-
 /*---------------------------------FOOTER-----------------------------*/
 
 #footer {
@@ -201,7 +129,7 @@ body {
 	display:inline-block;
 	height:100px;
 	width:400px;
-	width: 100%;
+	width:100%;
 	text-align:center;
 	font-family:'Fjalla One', sans-serif;
 	font-size:20px;
@@ -212,7 +140,26 @@ body {
 } 
 
 .not-cliquable {
-	cursor: default;
+	cursor:default;
+}
+
+a:link {
+	color:white
+	text-decoration:none;
+}
+
+a:hover {
+	opacity:0.8;
+}
+
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+
+a:active{
+	color:black;
+	text-decoration:none;
 }
 
 /*--------------------------------RESPONSIVE-----------------------------*/
@@ -239,17 +186,49 @@ body {
 	}
 }
 
-
-/*---------------------------------Barre de navigation--------------------------------*/
+/*---------------------------------BARRE DE NAVIGATION-------------------------------*/
 .navbar-default {
-    background-color: black;
-    border-color: black;
+    background-color:black;
+    border-color:black;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #BDBDBD;
+    color:#BDBDBD;
 }
 
 .navbar-default .navbar-brand {
-    color: #BDBDBD;
+    color:#BDBDBD;
+}
+
+nav {
+	font-family:'Fjalla One', sans-serif;
+	font-size:18px;
+}
+
+/*-------------------------------------FORMULAIRE-----------------------------------------*/
+.btn-primary {
+	background-color:black;
+}
+
+.form-control {
+    display:block;
+    width:100%;
+    height:34px;
+    padding:6px 12px;
+    font-size:14px;
+    line-height:1.42857143;
+    color:white;
+    background-color:black;
+    background-image:none;
+    border:1px solid #ccc;
+    border-radius:4px;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.hiddenmessage {
+	display:none;
 }
