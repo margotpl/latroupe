@@ -39,15 +39,6 @@ h4 {
 #boutondelafin {
 	font-family: 'Droid Serif', serif;
 	font-size:14px;
-	padding-left:40px;
-	margin-top:10px;
-}
-
-.image {
-	display:block;
-    margin:auto;
-    border-radius:2%;
-    width:100%;
 }
 
 body {
@@ -58,7 +49,7 @@ body {
 
 section {
 	background-color:#000000;
-	border-radius:2%;
+	border-radius:3%;
 	color:#FFFFFF;
 }
 
