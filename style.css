@@ -95,6 +95,13 @@ section {
 	font-size:14px;
 }
 
+#suite {
+	font-family: 'Droid Serif', serif;
+	font-size:14px;
+	color:white;
+	text-decoration:none;
+}
+
 .decale {
 	margin-top:20px;
 }
@@ -154,7 +161,7 @@ a:hover {
 }
 
 a:visited{
-	color:black;
+	color:white;
 	text-decoration:none;
 }
 
@@ -173,6 +180,9 @@ a:active{
 		font-size:10px;
 	}
 	.temoignage {
+		font-size:10px;
+	}
+	#suite {
 		font-size:10px;
 	}
 	.fin {
